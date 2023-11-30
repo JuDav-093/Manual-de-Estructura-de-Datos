@@ -16,7 +16,7 @@ El manual está organizado en diferentes secciones que cubren una amplia gama de
 Cada sección del manual contiene:
 
 - **Descripción detallada:** Explicación teórica de la estructura de datos, su funcionamiento, ventajas y desventajas.
-- **Implementaciones:** Ejemplos de implementaciones en varios lenguajes de programación (C++, Python, Java, etc.).
+- **Implementaciones:** Ejemplos de implementaciones en C++.
 - **Ejemplos de uso:** Casos de uso y ejemplos prácticos para comprender mejor cómo se utilizan estas estructuras en la práctica.
 
 ## Uso del Repositorio
@@ -29,12 +29,5 @@ Si deseas contribuir con nuevas secciones, correcciones, mejoras o ejemplos de c
 
 En la sección de **Resources**, encontrarás enlaces a recursos externos útiles, como libros, artículos y sitios web recomendados para ampliar el conocimiento sobre estructuras de datos.
 
-## Licencia
-
-Este manual de estructuras de datos se comparte bajo la licencia [Nombre de la licencia]. Consulta el archivo LICENSE.md para obtener más detalles sobre los términos de uso y distribución.
-
-## Contacto
-
-Si tienes preguntas, sugerencias o cualquier otro asunto relacionado con este manual, no dudes en abrir un issue o contactar al mantenedor principal [Nombre del mantenedor] a través de [correo electrónico o enlace al perfil].
 
 ¡Gracias por tu interés y contribuciones!
