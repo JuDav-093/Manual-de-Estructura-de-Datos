@@ -1,6 +1,10 @@
 # Manual de Estructuras de Datos NRC: 14675📘
 
-<a href="https://imgur.com/KEb5MMK"><img src="https://i.imgur.com/KEb5MMK.jpg" title="source: imgur.com" width="150" height="150"/></a>
+<div style="text-align:center;">
+  <a href="https://imgur.com/KEb5MMK">
+    <img src="https://i.imgur.com/KEb5MMK.jpg" title="source: imgur.com" width="500" height="500" style="margin: auto;"/>
+  </a>
+</div>
 
 Este repositorio contiene un manual completo sobre estructuras de datos, destinado a proporcionar una comprensión detallada de los conceptos básicos y avanzados relacionados con las estructuras de datos en informática.
 
