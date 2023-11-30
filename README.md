@@ -2,6 +2,8 @@
 
 Este repositorio contiene un manual completo sobre estructuras de datos, destinado a proporcionar una comprensión detallada de los conceptos básicos y avanzados relacionados con las estructuras de datos en informática.
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+
 ## Contenido 📋
 
 El manual está organizado en diferentes secciones que cubren una amplia gama de estructuras de datos comúnmente utilizadas, tales como:
@@ -31,3 +33,4 @@ En la sección de **Resources**, encontrarás enlaces a recursos externos útile
 
 
 ¡Gracias por tu interés y contribuciones!
+
