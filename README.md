@@ -13,10 +13,10 @@ Este repositorio contiene un manual completo sobre estructuras de datos, destina
 El manual está organizado en diferentes secciones que cubren una amplia gama de temas relacionados con estructuras de datos comúnmente utilizadas:
 
 -  **Introduccion y fundamentos de las Estructuras de Datos**
-    -Tipos de Datos Abstractos (TDA)
-    -Manejo de Plantillas
-    -Sobrecarga
-    -Gestion de memoria
+-   Tipos de Datos Abstractos (TDA)
+-   Manejo de Plantillas
+-   Sobrecarga
+-   Gestion de memoria
 -  **Recursividad**
     -Principios de Algoritmos Recursivos
     -Tipos de Recursividad
