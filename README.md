@@ -1,6 +1,6 @@
 # Manual de Estructuras de Datos NRC: 14675📘
 
-![Static Badge](https://www.bing.com/images/create/crea-un-logo-con-el-texto-22estructura-de-datos22-es/1-6568b2e021c649f59800475b8f0d2736?id=BKKhBNxNvWNJszA2bSjn%2fA%3d%3d&view=detailv2&idpp=genimg&FORM=GCRIDP&mode=overlay)
+[Imgur](https://i.imgur.com/ffCOBx0.jpg)
 
 Este repositorio contiene un manual completo sobre estructuras de datos, destinado a proporcionar una comprensión detallada de los conceptos básicos y avanzados relacionados con las estructuras de datos en informática.
 
@@ -36,3 +36,4 @@ En la sección de **Resources**, encontrarás enlaces a recursos externos útile
 
 ¡Gracias por tu interés y contribuciones!
 
+[Imgur](https://i.imgur.com/KEb5MMK.jpg)
