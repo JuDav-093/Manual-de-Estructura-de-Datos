@@ -2,7 +2,7 @@
 
 Este repositorio contiene un manual completo sobre estructuras de datos, destinado a proporcionar una comprensión detallada de los conceptos básicos y avanzados relacionados con las estructuras de datos en informática.
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=EspinAndres01&theme=dark&show_icons=true)
 
 ## Contenido 📋
 
@@ -12,7 +12,7 @@ El manual está organizado en diferentes secciones que cubren una amplia gama de
 - **Pilas y colas** 🔄
 - **Árboles** 🌳
 - **Grafos** 📊
-- **Tablas hash** 🔍
+- **Tablas hash** 🔍    
 - **Estructuras avanzadas** como árboles AVL, árboles B, etc. 🚀
 
 Cada sección del manual contiene:
