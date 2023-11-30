@@ -37,3 +37,4 @@ En la sección de **Resources**, encontrarás enlaces a recursos externos útile
 ¡Gracias por tu interés y contribuciones!
 
 [Imgur](https://i.imgur.com/KEb5MMK.jpg)
+<a href="https://imgur.com/KEb5MMK"><img src="https://i.imgur.com/KEb5MMK.jpg" title="source: imgur.com" /></a>
