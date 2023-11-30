@@ -41,7 +41,7 @@ En la sección de **Resources**, encontrarás enlaces a recursos externos útile
 ¡Gracias por tu interés y contribuciones!
 <div style="text-align:center;">
   <a href="https://imgur.com/ffCOBx0">
-    <img src="hhttps://i.imgur.com/ffCOBx0.jpg" title="source: imgur.com" width="500" height="500" style="margin: 50;"/>
+    <img src="hhttps://i.imgur.com/ffCOBx0.jpg" title="source: imgur.com" width="500" height="500" style="margin: 50px;"/>
   </a>
 </div>
 
