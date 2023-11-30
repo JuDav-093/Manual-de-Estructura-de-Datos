@@ -13,44 +13,44 @@ Este repositorio contiene un manual completo sobre estructuras de datos, destina
 El manual está organizado en diferentes secciones que cubren una amplia gama de temas relacionados con estructuras de datos comúnmente utilizadas:
 
 -  **Introduccion y fundamentos de las Estructuras de Datos**
-    Tipos de Datos Abstractos (TDA)
-    Manejo de Plantillas
-    Sobrecarga
-    Gestion de memoria
+    -Tipos de Datos Abstractos (TDA)
+    -Manejo de Plantillas
+    -Sobrecarga
+    -Gestion de memoria
 -  **Recursividad**
-    Principios de Algoritmos Recursivos
-    Tipos de Recursividad
+    -Principios de Algoritmos Recursivos
+    -Tipos de Recursividad
 - **Listas enlazadas** 📝
-    Tipos de Listas
-    Operaciones
-    Aplicaciones
+    -Tipos de Listas
+    -Operaciones
+    -Aplicaciones
 - **Pilas y colas** 🔄
-    Representacion en memoria
-    Operaciones Basicas
-    Recursividad con Pilas
-    Aplicaciones    
+    -Representacion en memoria
+    -Operaciones Basicas
+    -Recursividad con Pilas
+    -Aplicaciones    
 - **Árboles** 🌳
-    Clasificacion
-    Operaciones
+    -Clasificacion
+    -Operaciones
 - **Grafos** 📊
-    Representacion de Grafos
-    Operaciones Basicas
+    -Representacion de Grafos
+    -Operaciones Basicas
     Algoritmo de Dijkstra
 - **Tablas hash** 🔍
-    Aplicacion   
+    -Aplicacion   
 - **Estructuras avanzadas**
-    Árboles AVL
-    árboles B 🚀
+    -Árboles AVL
+    -Árboles B 🚀
 
 
 Cada sección del manual contiene:
 
 - **Descripción detallada:**
-    Explicación teórica del tema de estructura de datos, su funcionamiento, ventajas y desventajas.
+    -Explicación teórica del tema de estructura de datos, su funcionamiento, ventajas y desventajas.
 - **Implementaciones:**
-    Ejemplos de implementaciones en C++.
+    -Ejemplos de implementaciones en C++.
 - **Ejemplos de uso:**
-    Casos de uso y ejemplos prácticos para comprender mejor cómo se utilizan estas estructuras en la práctica.
+    -Casos de uso y ejemplos prácticos para comprender mejor cómo se utilizan estas estructuras en la práctica.
 
 
 ## Uso del Repositorio 💻
