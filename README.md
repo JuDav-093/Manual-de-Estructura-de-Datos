@@ -62,7 +62,7 @@ Si deseas contribuir con nuevas secciones, correcciones, mejoras o ejemplos de c
 
 ## Recursos Adicionales ℹ️
 
-En esta sección, encontrarás información amplida de cada tema como enlaces a recursos externos útiles, libros, artículos y sitios web recomendados, para que puedas extender y ampliar tu conocimiento sobre estructuras de datos.
+En esta sección, encontrarás información ampliada de cada uno de los temas, como enlaces a recursos externos útiles, libros, artículos y sitios web recomendados, para que puedas extender y ampliar tu conocimiento sobre estructuras de datos.
 
 
 ¡Gracias por tu interés y contribuciones!
