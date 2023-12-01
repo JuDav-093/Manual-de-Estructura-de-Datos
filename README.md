@@ -6,7 +6,7 @@
   </a>
 </div>
 
-Este repositorio contiene un manual completo sobre estructuras de datos, destinado a proporcionar una comprensión detallada de los conceptos básicos y avanzados relacionados con las estructuras de datos en informática.
+Este repositorio contiene un manual completo sobre estructuras de datos, un recurso integral que busca proporcionar una comprensión detallada de los conceptos básicos y avanzados relacionados con las estructuras de datos en informática.
 
 ## Contenido 📋
 
