@@ -1,1 +1,0 @@
-# Ejemplos practicos proporcionados por el Ingeniero Edgar Fernando Solis Acosta junto a la variación para multiplicar matrices.
