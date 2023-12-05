@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1701063106 source:d:\uninversidad\tercersemestre\estructura\codigos y demas\multiplicacion de matrices\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	"Multiplicacion.h"
+	<time.h>
+
+1701062434 source:d:\uninversidad\tercersemestre\estructura\codigos y demas\multiplicacion de matrices\multiplicacion.cpp
+	"Multiplicacion.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<cstring>
+
+1701062434 d:\uninversidad\tercersemestre\estructura\codigos y demas\multiplicacion de matrices\multiplicacion.h
+
+1701062434 d:\uninversidad\tercersemestre\estructura\codigos y demas\multiplicacion de matrices\multiplicacion.cpp
+	"Multiplicacion.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<cstring>
+

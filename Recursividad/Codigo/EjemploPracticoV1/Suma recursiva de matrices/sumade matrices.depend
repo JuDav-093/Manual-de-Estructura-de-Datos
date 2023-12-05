@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1701062826 source:d:\uninversidad\tercersemestre\estructura\codigos y demas\sumade matrices\cproceso.cpp
+	"Cproceso.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<cstring>
+
+1701062826 d:\uninversidad\tercersemestre\estructura\codigos y demas\sumade matrices\cproceso.h
+	<iostream>
+
+1701062972 source:d:\uninversidad\tercersemestre\estructura\codigos y demas\sumade matrices\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	"Cproceso.h"
+	<time.h>
+
+1701062826 d:\uninversidad\tercersemestre\estructura\codigos y demas\sumade matrices\cproceso.cpp
+	"Cproceso.h"
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<cstring>
+
