@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\DIEGO\Documents\SOFTWARE\ESTRUCTURA DE DATOS\u1\Colas\Colas\Colas\validaciones.h(70,16): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  Colas.vcxproj -> D:\DIEGO\Documents\SOFTWARE\ESTRUCTURA DE DATOS\u1\Colas\Colas\x64\Debug\Colas.exe
