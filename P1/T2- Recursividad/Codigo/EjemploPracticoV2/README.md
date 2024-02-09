@@ -1,1 +1,0 @@
-Código de recursividad abstraido y con lambda
