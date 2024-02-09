@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1707465340 source:c:\users\user\documents\espe\semestre 2023 2\estructuras\proyecto\colascirculares\main.cpp
+	<iostream>
+	"ColasCirculares.cpp"
+	"Validaciones.h"
+
+1707464843 c:\users\user\documents\espe\semestre 2023 2\estructuras\proyecto\colascirculares\colascirculares.cpp
+	"colasCirculares.h"
+
+1707464311 c:\users\user\documents\espe\semestre 2023 2\estructuras\proyecto\colascirculares\colascirculares.h
+	<iostream>
+
+1707465096 c:\users\user\documents\espe\semestre 2023 2\estructuras\proyecto\colascirculares\validaciones.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+
