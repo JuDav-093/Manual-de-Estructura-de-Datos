@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1707468775 source:c:\users\user\documents\espe\semestre 2023 2\estructuras\quicksort\main.cpp
+	"quicksort.cpp"
+
+1707468655 c:\users\user\documents\espe\semestre 2023 2\estructuras\quicksort\quicksort.cpp
+	"quicksort.h"
+
+1707468599 c:\users\user\documents\espe\semestre 2023 2\estructuras\quicksort\quicksort.h
+	<iostream>
+

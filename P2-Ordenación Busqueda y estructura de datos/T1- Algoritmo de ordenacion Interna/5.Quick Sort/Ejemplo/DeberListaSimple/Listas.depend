@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1701411485 source:d:\universidad\tercersemestre\estructuradedatos\codigo\listas\main.cpp
+	<iostream>
+	"Nodo.h"
+	"ListaSimple.h"
+	"../validaciones.h"
+
+1701441054 source:d:\universidad\tercersemestre\estructuradedatos\codigo\listas\nodo.cpp
+	"Nodo.h"
+
+1701441054 d:\universidad\tercersemestre\estructuradedatos\codigo\listas\nodo.h
+
+1701441054 source:d:\universidad\tercersemestre\estructuradedatos\codigo\listas\listasimple.cpp
+	<iostream>
+	"ListaSimple.h"
+	"Nodo.h"
+
+1701441069 d:\universidad\tercersemestre\estructuradedatos\codigo\listas\listasimple.h
+	"Nodo.h"
+
+1701407868 d:\universidad\tercersemestre\estructuradedatos\codigo\listas\nodo.cpp
+	"Nodo.h"
+
+1701411302 d:\universidad\tercersemestre\estructuradedatos\codigo\validaciones.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+
