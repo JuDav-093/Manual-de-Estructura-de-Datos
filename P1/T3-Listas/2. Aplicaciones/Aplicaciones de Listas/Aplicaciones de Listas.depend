@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1707492214 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\main.cpp
+	<iostream>
+	"Nodo.h"
+	"ListaDoble.h"
+	"windows.h"
+	"validaciones.h"
+
+1707482678 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\nodo.cpp
+	"Nodo.h"
+
+1707482637 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\nodo.h
+	"Estudiante.h"
+
+1707492104 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\listadoble.cpp
+	<iostream>
+	"ListaDoble.h"
+	<iomanip>
+
+1707491967 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\listadoble.h
+	"Nodo.h"
+
+1707491781 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\validaciones.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+	<iomanip>
+
+1707488748 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\estudiante.cpp
+	"Estudiante.h"
+	<iomanip>
+
+1707488743 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\aplicaciones de listas\estudiante.h
+	<iostream>
+
