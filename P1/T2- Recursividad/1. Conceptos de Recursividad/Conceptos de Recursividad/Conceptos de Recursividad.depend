@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1707438019 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\conceptos de recursividad\main.cpp
+	<iostream>
+	"windows.h"
+	"validaciones.h"
+	"math.h"
+
+1704728366 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\conceptos de recursividad\validaciones.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+
