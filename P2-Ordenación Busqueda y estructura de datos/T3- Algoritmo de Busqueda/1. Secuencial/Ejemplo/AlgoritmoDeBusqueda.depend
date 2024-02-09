@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1705381848 source:c:\users\user\desktop\temporal\algoritmosdebusqueda\algoritmodebusqueda\main.cpp
+	<iostream>
+	"busqueda.cpp"
+
+1705381639 c:\users\user\desktop\temporal\algoritmosdebusqueda\algoritmodebusqueda\busqueda.cpp
+	"busqueda.h"
+
+1705382596 c:\users\user\desktop\temporal\algoritmosdebusqueda\algoritmodebusqueda\busqueda.h
+	<list>
+
+1707450156 source:c:\users\dell\desktop\estructuras portafolio\manual-de-estructura-de-datos\p2-ordenación busqueda y estructura de datos\t3- algoritmo de busqueda\1. secuencial\ejemplo\main.cpp
+	<iostream>
+	"busqueda.cpp"
+
+1707450076 c:\users\dell\desktop\estructuras portafolio\manual-de-estructura-de-datos\p2-ordenación busqueda y estructura de datos\t3- algoritmo de busqueda\1. secuencial\ejemplo\busqueda.cpp
+	"busqueda.h"
+
+1707450076 c:\users\dell\desktop\estructuras portafolio\manual-de-estructura-de-datos\p2-ordenación busqueda y estructura de datos\t3- algoritmo de busqueda\1. secuencial\ejemplo\busqueda.h
+	<list>
+
