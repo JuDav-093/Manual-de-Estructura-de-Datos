@@ -1,0 +1,9 @@
+El codigo es funcional siempre y cuando se realice la instalacion adecuada de la libreria de graphics.h 
+
+1.- La instalacion de la libreria se realiza mediante la guia de este video https://youtu.be/xd6oAWKVidY?si=lFfEU-DwI37D9HML
+	
+    tener en cuenta que si trabaja en embarcadero dev c++ se debe realizar los mismos pasos pero en la carpeta de embarcadero
+
+    ubicada en "archivos del programa (x86)" ademas de tener en cuenta que los archivos debe estar bien insertados, los linkers 
+
+    todos colocados y el ambiente que debe ser TDM-GCC ... 32-bit Release (unicamente para este codigo)
