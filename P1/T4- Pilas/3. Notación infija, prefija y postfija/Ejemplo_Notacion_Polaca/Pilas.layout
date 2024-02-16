@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="Node.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="710" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="validacionesNEW.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8459" topLine="218" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="798" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="Node.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="354" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="Matematica.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="524" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="stack_operations.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="413" topLine="2" />
+		</Cursor>
+		<Folding>
+			<Collapse line="121" />
+			<Collapse line="134" />
+			<Collapse line="143" />
+			<Collapse line="194" />
+		</Folding>
+	</File>
+	<File name="Stack.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="709" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="Stack.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1459" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="stacks_movements.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1237" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="Matematica.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7837" topLine="266" />
+		</Cursor>
+	</File>
+	<File name="validaciones.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5567" topLine="212" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

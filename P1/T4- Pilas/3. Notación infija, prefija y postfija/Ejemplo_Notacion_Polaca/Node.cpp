@@ -1,11 +1,13 @@
-/***********************************************************************
- * Module:  Node.h
- * Author:  Edison Verdesoto
- * Modified: viernes, 20 de diciembre de 2023 11:05:38 a. m.
- * Purpose: Class Node
- ***********************************************************************/
-
 #include "Node.h"
+
+
+/***********************************************************************
+ UFA - ESPE
+ * Module: Node.cpp
+ * Author: Benavides Ruben
+ * Modified: December 21, 2023
+ * Purpose: Node Class Implementation
+ ***********************************************************************/
 
 template <typename T>
 Node<T>::Node(){

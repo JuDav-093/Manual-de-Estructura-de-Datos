@@ -14,14 +14,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <cstring>
+#include "Stack.h"
+#include "Node.h"
 
 int ingresar_enteros(const char* msj);
 int borrar(char* datos, int& i);
 float ingresar_reales(const char* msj);
 std::string ingresar_alfabetico(const char* msj);
-
-bool esEspecial(char tecla){
-	return(tecla == 'c' || tecla == 's' ||tecla == 'r'  || tecla == 't');
+bool es_especial (char tecla){
+    return (tecla == 'c' || tecla == 's' ||tecla == 'r'  || tecla == 't' || tecla == 'l');
 }
 
 bool esParentesis(char tecla){
@@ -113,7 +114,6 @@ std::string ingresar_alfabetico(const char* msj) {
     datos[i] = '\0';
     return std::string(datos);
 }
-
 
 int borrar(char* datos, int& i) {
     if (i > 0) {
@@ -220,151 +220,179 @@ float ingresarFloat() {
     return atof(entrada);
 }
 
-std::string ingresarExpresion() {
-    char *entrada = new char[30];
-    char tecla;
-    int i = 0;
+void ingresar_expresion(Stack<char>* expresion, char tecla){
     int parentesisApertura = 0;
     int parentesisCierre = 0;
-    bool eliminarEspeciales = false;
     int caracteresEliminar= 0;
-    char elementoAnterior = '\0';
+    Node<char>* aux = expresion->get_top();
+    char elementoAnterior;
+    char elementoAnteriorAnterior;
     bool huboPunto = false;
     bool hayPunto = false;
+    bool contadorOp = false;
+    bool negativo = false;
+
+    auto expresion_borrar = [&caracteresEliminar, &expresion, &parentesisApertura](){
+        for (int i = 0; i < caracteresEliminar; i++){
+            std::cout << "\b \b";
+            expresion->delete_of_stack();
+        }
+        parentesisApertura--;
+    };
 
     while (true) {
+    aux = expresion->get_top();
+        if(aux != nullptr){
+            elementoAnterior = aux->get_value();
+            if (aux->get_below() != nullptr){
+                elementoAnteriorAnterior = aux->get_below()->get_value();
+            }
+            else {
+                elementoAnteriorAnterior = '\0';
+            }
+        }
+        else {
+            elementoAnterior = '\0';
+            elementoAnteriorAnterior = '\0';
+        }
         tecla = getch();
-        elementoAnterior = (i > 0) ? entrada[i - 1] : '\0';
-
-        if (tecla == '\r' && i > 0 && !esOperador(elementoAnterior) && elementoAnterior != '.') {
+        if (tecla == '\r' && !expresion->is_stack_void() && !esOperador(elementoAnterior) && elementoAnterior != '.') {
             if (parentesisApertura == parentesisCierre) {
                 break;
             }
-        } else if (tecla == '\b' && i > 0) {
-            if (elementoAnterior == 'i' || (elementoAnterior == '(' && (entrada[i - 2] == 's' ||
-                entrada[i - 2] == 'n' || entrada[i - 2] == 'z'))) {
+        }
+        else if (tecla == '\b' && !expresion->is_stack_void()) {
+            if (elementoAnterior == 'i' || (elementoAnterior == '(' && (elementoAnteriorAnterior == 's' ||
+                elementoAnteriorAnterior == 'n' || elementoAnteriorAnterior == 'z') || elementoAnteriorAnterior == 'g')) {
                 caracteresEliminar = 4;
                 if (elementoAnterior == 'i') {
                     caracteresEliminar = 2;
-                } else if (entrada[i - 2] == 'z') {
+                }
+                else if (elementoAnteriorAnterior == 'z') {
                     caracteresEliminar = 5;
                 }
-                eliminarEspeciales = true;
-            } else if (esParentesis(elementoAnterior)) {
+                expresion_borrar();
+            }
+            else if (esParentesis(elementoAnterior)) {
                 std::cout << "\b \b";
-                entrada[i] = 0;
-                i--;
+                expresion->delete_of_stack();
+                contadorOp = elementoAnterior == ')';
                 parentesisCierre -= (elementoAnterior == ')');
                 parentesisApertura -= (elementoAnterior == '(');
-            } else if (elementoAnterior == '.') {
+            }
+            else if (elementoAnterior == '.') {
                 std::cout << "\b \b";
-                i--;
-                entrada[i] = 0;
+                expresion->delete_of_stack();
                 hayPunto = false;
-            } else if (esOperador(elementoAnterior)) {
+            }
+            else if (esOperador(elementoAnterior)) {
                 std::cout << "\b \b";
-                i--;
-                entrada[i] = 0;
+                expresion->delete_of_stack();
                 hayPunto = huboPunto;
-            } else {
+            }
+            else {
                 std::cout << "\b \b";
-                i--;
-                entrada[i] = 0;
+                expresion->delete_of_stack();
             }
 
-            if (eliminarEspeciales) {
-                for (int j = 1; j <= caracteresEliminar; j++) {
-                    std::cout << "\b \b";
-                    elementoAnterior = 0;
-                    i--;
-                }
-                if (caracteresEliminar > 2) {
-                    parentesisApertura--;
-                }
-                eliminarEspeciales = false;
-            }
-        } else if (isalpha(tecla) && elementoAnterior != '.' && (esOperador(elementoAnterior) || elementoAnterior == '(' || i == 0)) {
-            if (esEspecial(tecla)) {
-                const char* texto = "";
+        }
+        if (isalpha(tecla) && elementoAnterior != '.' && (esOperador(elementoAnterior) || elementoAnterior == '(' || expresion->is_stack_void())) {
+            if (es_especial(tecla)) {
                 switch (tecla) {
                     case 'c':
-                        entrada[i++] = 'c';
-                        entrada[i++] = 'o';
-                        entrada[i++] = 's';
-                        texto = "os(";
+                        expresion->aggregate('c');
+                        expresion->aggregate('o');
+                        expresion->aggregate('s');
+                        std::cout << "cos(";
                         break;
                     case 's':
-                        entrada[i++] = 's';
-                        entrada[i++] = 'i';
-                        entrada[i++] = 'n';
-                        texto = "in(";
+                        expresion->aggregate('s');
+                        expresion->aggregate('i');
+                        expresion->aggregate('n');
+                        std::cout << "sin(";
                         break;
                     case 't':
-                        entrada[i++] = 't';
-                        entrada[i++] = 'a';
-                        entrada[i++] = 'n';
-                        texto = "an(";
+                        expresion->aggregate('t');
+                        expresion->aggregate('a');
+                        expresion->aggregate('n');
+                        std::cout << "tan(";
                         break;
                     case 'r':
-                        entrada[i++] = 'r';
-                        entrada[i++] = 'a';
-                        entrada[i++] = 'i';
-                        entrada[i++] = 'z';
-                        texto = "aiz(";
+                        expresion->aggregate('r');
+                        expresion->aggregate('a');
+                        expresion->aggregate('i');
+                        expresion->aggregate('z');
+                        std::cout << "raiz(";
                         break;
                 }
-                entrada[i++] = '(';
+                expresion->aggregate('(');
                 parentesisApertura++;
-                std::cout << tecla << texto;
-            } else if (tecla == 'p') {
-                entrada[i++] = tecla;
-                entrada[i++] = 'i';
-                std::cout << tecla << "i";
             }
-        } else if (esParentesis(tecla)) {
-            if (tecla == '(' && elementoAnterior != '.' && (esOperador(elementoAnterior) || elementoAnterior == '(' || i == 0)) {
+        }
+        if (esParentesis(tecla)) {
+            if (tecla == '(' && elementoAnterior != '.' && (esOperador(elementoAnterior) || elementoAnterior == '('
+                                || expresion->is_stack_void())) {
                 parentesisApertura++;
-                entrada[i++] = tecla;
+                expresion->aggregate(tecla);
                 std::cout << tecla;
-            } else if (tecla == ')' && elementoAnterior != '.' && elementoAnterior != '(' && !esOperador(elementoAnterior) && (isdigit(elementoAnterior) || elementoAnterior == ')' || elementoAnterior == 'i')) {
+            } else if (tecla == ')' && elementoAnterior != '.' && elementoAnterior != '(' && !esOperador(elementoAnterior)
+                                && (isdigit(elementoAnterior) || elementoAnterior == ')' || elementoAnterior == 'i')) {
                 parentesisCierre++;
                 if (parentesisApertura > 0 && parentesisCierre <= parentesisApertura) {
-                    entrada[i++] = tecla;
+                    expresion->aggregate(tecla);
                     std::cout << tecla;
+                    contadorOp = false;
                 } else {
                     parentesisCierre--;
                 }
             }
-        } else if (isdigit(tecla) && elementoAnterior != 'i' && (esOperador(elementoAnterior) ||
-            elementoAnterior == '(' || isdigit(elementoAnterior) || i == 0 || elementoAnterior == '.')) {
-            int k = 1;
-            while (isdigit(entrada[i - k])) {
-                k++;
+        }
+        else if (isdigit(tecla) && elementoAnterior != 'i' &&(expresion->is_stack_void() || esOperador(elementoAnterior)|| elementoAnterior == '('
+                                || isdigit(elementoAnterior) || elementoAnterior == '.')) {
+            int k = 0;
+            if (!expresion->is_stack_void()){
+                Node<char>* c_aux = expresion->get_top();
+                for (k; k < 8; k++){
+                    if (c_aux == nullptr){
+                        break;
+                    }
+                    else if (!isdigit(c_aux->get_value())) {
+                        break;
+                    }
+                    c_aux = c_aux->get_below();
+                }
+            }
+            if (elementoAnterior == '0' && (elementoAnteriorAnterior == '\0' || esOperador(elementoAnteriorAnterior))) {
+                k = 8;
             }
             if (k < 7) {
-                entrada[i++] = tecla;
+                expresion->aggregate(tecla);
                 std::cout << tecla;
             }
-        } else if (esOperador(tecla) && elementoAnterior != '.' && !esOperador(elementoAnterior) && tecla != '-' && elementoAnterior != '(' && i > 0) {
-            entrada[i++] = tecla;
+        }
+        else if (esOperador(tecla) && elementoAnterior != '.' && !esOperador(elementoAnterior)
+                                && elementoAnterior != '(' && !expresion->is_stack_void() && contadorOp==false ) {
+            expresion->aggregate(tecla);
             std::cout << tecla;
             huboPunto = hayPunto;
             hayPunto = false;
-        } else if (tecla == '-' && !esOperador(elementoAnterior) && elementoAnterior != '.') {
-            entrada[i++] = tecla;
+        }
+        else if (tecla == '-' && !esOperador(elementoAnterior) && elementoAnterior != '.'
+                                && elementoAnterior == '(' && elementoAnteriorAnterior != 'z' && elementoAnteriorAnterior != 'g') {
+            expresion->aggregate(tecla);
             std::cout << tecla;
-            hayPunto = false;
-        } else if (tecla == '.' && isdigit(elementoAnterior)) {
+            contadorOp = true;
+        }
+        else if (tecla == '.' && isdigit(elementoAnterior)) {
             if (!hayPunto) {
-                entrada[i++] = tecla;
+                expresion->aggregate(tecla);
                 std::cout << tecla;
                 hayPunto = true;
             }
         }
     }
-    entrada[i] = '\0';
-    return entrada;
 }
+
 
 
 #endif // VALIDACIONES_H_INCLUDED

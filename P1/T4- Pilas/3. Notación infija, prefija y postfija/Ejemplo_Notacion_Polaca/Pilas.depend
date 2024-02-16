@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1706491801 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\main.cpp
+	<iostream>
+	"Stack.cpp"
+	"validacionesNEW.h"
+	"stacks_movements.h"
+	"stack_operations.h"
+	<string>
+	<algorithm>
+	<cmath>
+	"windows.h"
+
+1706315449 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\stack.cpp
+	"Stack.h"
+	"Node.cpp"
+	<iostream>
+
+1705623908 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\stack.h
+	"Node.h"
+
+1704300481 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\node.h
+
+1704300388 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\node.cpp
+	"Node.h"
+
+1706315449 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\stack.cpp
+	"Stack.h"
+	"Node.cpp"
+	<iostream>
+
+1704300388 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\node.cpp
+	"Node.h"
+
+1705670083 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\validaciones.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+
+1704300335 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\stacks_movements.h
+	"Stack.h"
+
+1706537363 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\stack_operations.h
+	"Stack.h"
+	"Matematica.h"
+	<string>
+	<algorithm>
+	<cmath>
+
+1706229300 source:c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\matematica.cpp
+	"Matematica.h"
+
+1706229319 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\matematica.h
+
+1705942033 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\validacionesact.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+
+1706543329 c:\users\darÍo benavides\desktop\profesional\lenguajes\c++(both)\pilas\validacionesnew.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+	"Stack.h"
+	"Node.h"
+
+1708053963 source:c:\users\ediso\music\pilas\main.cpp
+	<iostream>
+	"Stack.cpp"
+	"validacionesNEW.h"
+	"stacks_movements.h"
+	"stack_operations.h"
+	<string>
+	<algorithm>
+	<cmath>
+	"windows.h"
+
+1706315449 c:\users\ediso\music\pilas\stack.cpp
+	"Stack.h"
+	"Node.cpp"
+	<iostream>
+
+1705623908 c:\users\ediso\music\pilas\stack.h
+	"Node.h"
+
+1704300481 c:\users\ediso\music\pilas\node.h
+
+1704300388 c:\users\ediso\music\pilas\node.cpp
+	"Node.h"
+
+1706543329 c:\users\ediso\music\pilas\validacionesnew.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+	"Stack.h"
+	"Node.h"
+
+1704300335 c:\users\ediso\music\pilas\stacks_movements.h
+	"Stack.h"
+
+1708053892 c:\users\ediso\music\pilas\stack_operations.h
+	"Stack.h"
+	"Matematica.h"
+	<string>
+	<algorithm>
+	<cmath>
+
+1706229319 c:\users\ediso\music\pilas\matematica.h
+
+1706229300 source:c:\users\ediso\music\pilas\matematica.cpp
+	"Matematica.h"
+
+1704300388 source:c:\users\ediso\music\pilas\node.cpp
+	"Node.h"
+
+1706315449 source:c:\users\ediso\music\pilas\stack.cpp
+	"Stack.h"
+	"Node.cpp"
+	<iostream>
+
