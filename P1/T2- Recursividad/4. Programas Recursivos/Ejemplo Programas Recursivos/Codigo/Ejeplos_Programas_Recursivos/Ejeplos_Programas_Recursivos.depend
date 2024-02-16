@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1707403573 source:f:\estructura_github\manual-de-estructura-de-datos\p1-introduccion y fundamentos de las estructuras de datos\t2- recursividad\4. programas recursivos\codigo\ejeplos_programas_recursivos\main.cpp
+	<iostream>
+	"Menu.h"
+
+1707430312 f:\estructura_github\manual-de-estructura-de-datos\p1-introduccion y fundamentos de las estructuras de datos\t2- recursividad\4. programas recursivos\codigo\ejeplos_programas_recursivos\menu.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	"validaciones.h"
+
+1707409913 f:\estructura_github\manual-de-estructura-de-datos\p1-introduccion y fundamentos de las estructuras de datos\t2- recursividad\4. programas recursivos\codigo\ejeplos_programas_recursivos\validaciones.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	<string.h>
+	<cstring>
+
