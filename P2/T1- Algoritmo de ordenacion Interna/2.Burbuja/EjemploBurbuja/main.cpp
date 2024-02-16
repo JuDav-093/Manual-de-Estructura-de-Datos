@@ -24,12 +24,16 @@ int main(){
             system("pause");
             break;
         case 3:
+            std::cout << std::endl;
             lista.imprimir();
             std::cout << std::endl;
             system("pause");
             break;
         case 4:
             lista.ordenarBurbuja();
+            std::cout << std::endl;
+            lista.imprimir();
+            std::cout << std::endl;
             system("pause");
             break;
         case 5:
