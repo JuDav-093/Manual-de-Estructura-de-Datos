@@ -1,0 +1,14 @@
+﻿  main.cpp
+D:\Universidad\TercerSemestre\EstructuraDeDatos\Cola_cajero\validaciones.h(121,16): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "main.cpp")
+  
+D:\Universidad\TercerSemestre\EstructuraDeDatos\Cola_cajero\menus.h(14,18): warning C4838: la conversión de 'int' en 'SHORT' requiere una conversión de restricción
+  (compilando archivo de origen "main.cpp")
+  
+D:\Universidad\TercerSemestre\EstructuraDeDatos\Cola_cajero\menus.h(14,21): warning C4838: la conversión de 'int' en 'SHORT' requiere una conversión de restricción
+  (compilando archivo de origen "main.cpp")
+  
+D:\Universidad\TercerSemestre\EstructuraDeDatos\Cola_cajero\main.cpp(9,25): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Cola_cajero.vcxproj -> D:\Universidad\TercerSemestre\EstructuraDeDatos\Cola_cajero\x64\Debug\Cola_cajero.exe
+  "pwsh.exe" no se reconoce como un comando interno o externo,
+  programa o archivo por lotes ejecutable.
