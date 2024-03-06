@@ -1,0 +1,16 @@
+﻿  Traductor_voz.cpp
+C:\Users\joanc\source\repos\Traductor_voz\validaciones.h(121,16): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Traductor_voz.cpp")
+  
+C:\Users\joanc\source\repos\Traductor_voz\menus.h(14,18): warning C4838: la conversión de 'int' en 'SHORT' requiere una conversión de restricción
+  (compilando archivo de origen "Traductor_voz.cpp")
+  
+C:\Users\joanc\source\repos\Traductor_voz\menus.h(14,21): warning C4838: la conversión de 'int' en 'SHORT' requiere una conversión de restricción
+  (compilando archivo de origen "Traductor_voz.cpp")
+  
+C:\Users\joanc\source\repos\Traductor_voz\ClienteHTTP.h(25,25): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "Traductor_voz.cpp")
+  
+  Traductor_voz.vcxproj -> C:\Users\joanc\source\repos\Traductor_voz\x64\Debug\Traductor_voz.exe
+  "pwsh.exe" no se reconoce como un comando interno o externo,
+  programa o archivo por lotes ejecutable.
