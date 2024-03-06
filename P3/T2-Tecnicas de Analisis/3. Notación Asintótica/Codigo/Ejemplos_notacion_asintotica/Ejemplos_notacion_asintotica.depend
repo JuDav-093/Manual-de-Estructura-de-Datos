@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1709524556 source:f:\estructura_github\manual-de-estructura-de-datos\p3\t2-tecnicas de analisis\3. notación asintótica\codigo\ejemplos_notacion_asintotica\algoritmos.cpp
+	<iostream>
+	<cmath>
+
+1709523570 source:f:\estructura_github\manual-de-estructura-de-datos\p3\t2-tecnicas de analisis\3. notación asintótica\codigo\ejemplos_notacion_asintotica\main.cpp
+	<iostream>
+	"Algoritmos.h"
+
+1709523570 f:\estructura_github\manual-de-estructura-de-datos\p3\t2-tecnicas de analisis\3. notación asintótica\codigo\ejemplos_notacion_asintotica\algoritmos.h
+	<iostream>
+	<cmath>
+
