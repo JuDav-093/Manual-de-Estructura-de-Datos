@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 
-// Función para encontrar el máximo elemento en una matriz
+// FunciÃ³n para encontrar el mÃ¡ximo elemento en una matriz
 int encontrarMaximo(const std::vector<int>& arr, int izquierda, int derecha) {
     if (izquierda == derecha) {
-        return arr[izquierda];
+        return arr.at(izquierda);
     }
     else {
         int mitad = (izquierda + derecha) / 2;
