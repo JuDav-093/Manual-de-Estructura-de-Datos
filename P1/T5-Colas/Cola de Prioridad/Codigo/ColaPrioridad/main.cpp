@@ -1,6 +1,6 @@
-#include "ColaPrioridad.cpp"
-#include "Nodo.cpp"
-#include "Validaciones.h" // Incluir el archivo de Validaciones
+#include "ColaPrioridad.h"
+#include "Nodo.h"
+#include "Validaciones.h" 
 #include <iostream>
 #include <cstdlib>
 

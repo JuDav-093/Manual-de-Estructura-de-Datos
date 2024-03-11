@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/ESPE/Manual-de-Estructura-de-Datos/P1/T5-Colas/Cola de Prioridad/Codigo/ColaPrioridad",
+      "program": "d:/ESPE/Manual-de-Estructura-de-Datos/P1/T5-Colas/Cola de Prioridad/Codigo/ColaPrioridad/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
